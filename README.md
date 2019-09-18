@@ -31,3 +31,5 @@ Build an automatic ISL translator i.e given an input video of someone signing a 
 * Add data augmentation to sequence of images of videos and improve the results
 * Add more words into vocabulary
 
+## Credits
+Used [pytorch-openpose](https://github.com/Hzzone/pytorch-openpose) extensively for skeletal conversions. You'll have to download the model trained in that repo to get similar results
