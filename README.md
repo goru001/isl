@@ -25,5 +25,9 @@ Build an automatic ISL translator i.e given an input video of someone signing a 
 ### Avg. No. of videos per class: 2-3
 
 ### Accuracy
-~51%
+~51% - One other thing to note that in lot of cases where `true_label` was not the `predicted_label`, it's score was actually at no. 2 or 3 of all classes.
+
+## Next Steps
+* Add data augmentation to sequence of images of videos and improve the results
+* Add more words into vocabulary
 
